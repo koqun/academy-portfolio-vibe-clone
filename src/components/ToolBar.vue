@@ -1,58 +1,65 @@
 <template>
-    <div class="tool">
-        <section class="search">
-          <div class="input" v-if="input">
-            <input type="text">
-            <font-awesome-icon icon="fa-solid fa-x" @click="input=false" />
-          </div>
-          <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" v-else @click="input=true"/>
-        </section>
+  <div class="tool">
+    <section class="search">
+      <div class="input" v-if="input">
+        <input type="text" />
+        <font-awesome-icon icon="fa-solid fa-x" @click="input = false" />
+      </div>
+      <font-awesome-icon
+        class="icon"
+        icon="fa-solid fa-magnifying-glass"
+        v-else
+        @click="input = true"
+      />
+    </section>
 
-        <section class="about">
-          <div class="modal" v-if="modal">
-
-          </div>
-          <font-awesome-icon class="icon" icon="fa-solid fa-bars" @click="modal=true"/>
-        </section>
-    </div>
+    <section class="about">
+      <div class="modal" v-if="modal"></div>
+      <font-awesome-icon
+        class="icon"
+        icon="fa-solid fa-bars"
+        @click="modal = true"
+      />
+    </section>
+  </div>
 </template>
 
 <script>
 export default {
-    name:'ToolBar',
-    data() {
-        return {
-            input:false,
-            modal:false,
-        }
-    },
-}
+  name: "ToolBar",
+  data() {
+    return {
+      input: false,
+      modal: false,
+    };
+  },
+};
 </script>
 
 <style scoped>
 section {
-    position: fixed;
+  position: fixed;
 
-    z-index: 1;
+  z-index: 1;
 
-    margin: 30px;
-    padding: 5px;
+  margin: 30px;
+  padding: 5px;
 
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
 
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 section .icon {
-    width: 30px;
-    font-size: 24px;
+  width: 30px;
+  font-size: 24px;
 
-    opacity: 0.8;
-    transition: 0.5s;
+  opacity: 0.8;
+  transition: 0.5s;
 }
 section .icon:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 /* section .icon:hover {
@@ -65,17 +72,17 @@ section .icon:hover {
   right: 0%;
 }
 
-  .search input {
-    margin-right: 5px;
-  }
-  
+.search input {
+  margin-right: 5px;
+}
+
 .about {
   top: 5%;
   right: 0%;
 }
 
-.search:hover, .about:hover {
+.search:hover,
+.about:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
-
 </style>
