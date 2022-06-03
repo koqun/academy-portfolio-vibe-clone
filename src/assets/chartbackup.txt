@@ -1,0 +1,24 @@
+"local":[
+        {"img":"https://musicmeta-phinf.pstatic.net/album/007/442/7442898.jpg?type=r480Fll&v=20220405154508", "title":"봄여름가을겨울 (Still Life)", "group":"BIGBANG (빅뱅)", "rank":1}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/007/385/7385585.jpg?type=r100Fll&v=20220405155416", "title":"TOMBOY", "group":"(여자) 아이들", "rank":2}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/007/421/7421466.jpg?type=r100Fll&v=20220405154432", "title":"Feel My Rhythm", "group":"Red Velvet (레드벨벳)", "rank":3}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/007/443/7443411.jpg?type=r100Fll&v=20220411134224", "title":"LOVE DIVE", "group":"IVE(아이브)", "rank":4}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/007/352/7352769.jpg?type=r100Fll&v=20220324175023", "title":"GANADARA (Feat. 아이유)", "group":"박재범", "rank":5}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/007/197/7197311.jpg?type=r100Fll&v=20220405172351", "title":"INVU", "group":"태연 (TAEYEON)", "rank":6}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/007/226/7226704.jpg?type=r100Fll&v=20220218185119", "title":"사랑인가 봐", "group":"멜로망스(Melomance)", "rank":7}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/007/256/7256621.jpg?type=r100Fll&v=20220221175913", "title":"RUN2U", "group":"STAYC(스테이씨)", "rank":8}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/739/6739257.jpg?type=r100Fll&v=20220304211020", "title":"취중고백", "group":"김민석(멜로망스)", "rank":9}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/717/6717322.jpg?type=r100Fll&v=20220410180436", "title":"ELEVEN", "group":"IVE(아이브)", "rank":10}
+    ]
+"foreign":[
+        {"img":"https://musicmeta-phinf.pstatic.net/album/004/614/4614783.jpg?type=r100Fll&v=20210530095515", "title":"Heat Waves", "group":"Glass Animals", "rank":1}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/158/6158502.jpg?type=r100Fll&v=20220310024208", "title":"STAY", "group":"The Kid LAROI, Justin Bieber", "rank":2}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/442/6442862.jpg?type=r100Fll&v=20211216010248", "title":"Big Energy", "group":"Latto", "rank":3}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/626/6626933.jpg?type=r100Fll&v=20211102103610", "title":"Super Gremlin", "group":"Kodak Black", "rank":4}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/611/6611519.jpg?type=r100Fll&v=20211028215026", "title":"Enemy (from the series Arcane League of Legends)", "group":"Imagine Dragons, J.I.D, League of Legends", "rank":5}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/005/388/5388407.jpg?type=r100Fll&v=20211224165018", "title":"Ghost", "group":"Justin Bieber", "rank":6}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/306/6306243.jpg?type=r100Fll&v=20220328160023", "title":"abcdefu", "group":"GAYLE", "rank":7}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/698/6698386.jpg?type=r100Fll&v=20220112105816", "title":"We Dont Talk About Bruno", "group":"Carolina Gaitán, Mauro Castillo, Adassa, Rhenzy Feliz", "rank":8}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/430/6430356.jpg?type=r100Fll&v=20220402013207", "title":"THATS WHAT I WANT", "group":"Lil Nas X", "rank":9}, 
+        {"img":"https://musicmeta-phinf.pstatic.net/album/006/100/6100206.jpg?type=r100Fll&v=20220226154210", "title":"Woman", "group":"Doja Cat", "rank":10}
+    ]
