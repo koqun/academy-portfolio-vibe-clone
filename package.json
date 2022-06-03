@@ -19,7 +19,6 @@
     "global": "^4.4.0",
     "roboto-fontface": "*",
     "vue": "^2.6.14",
-    "vue-fullpage.js": "^0.1.2",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2"
   },
@@ -35,7 +34,6 @@
     "eslint-plugin-vue": "^8.0.3",
     "sass": "~1.32.0",
     "sass-loader": "^10.0.0",
-    "vue-cli-plugin-fullpage": "~1.0.2",
     "vue-cli-plugin-vuetify": "~2.4.8",
     "vue-template-compiler": "^2.6.14"
   }

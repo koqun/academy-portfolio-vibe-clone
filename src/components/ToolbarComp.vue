@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: "ToolBar",
+  name: "ToolbarComp",
   data() {
     return {
       input: false,

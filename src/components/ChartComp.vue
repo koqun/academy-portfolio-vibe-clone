@@ -36,7 +36,7 @@
 import data from "../assets/data.json";
 
 export default {
-  name: "ChartSection",
+  name: "ChartComp",
   data() {
     return {
       local: data.local,

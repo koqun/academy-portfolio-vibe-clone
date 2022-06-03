@@ -30,7 +30,7 @@
 import data from "../assets/data.json";
 
 export default {
-  name: "TodaySection",
+  name: "TodayComp",
   data() {
     return {
       magazine: data.magazine,

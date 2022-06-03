@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: "NavBar",
+  name: "NavbarComp",
   data() {
     return {
       navlist: [

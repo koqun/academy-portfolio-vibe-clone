@@ -12,6 +12,6 @@
 
 <script>
 export default {
-  name: "ArtistSection",
+  name: "ArtistComp",
 };
 </script>
