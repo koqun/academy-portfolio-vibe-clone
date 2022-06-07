@@ -9,8 +9,10 @@
 
     <section class="nav-list" v-for="(item, i) in navlist" :key="i">
       <div class="item">
-        <font-awesome-icon :icon="`${item.icon}`" />
-        <router-link :to="`/${item.to}`">{{ item.title }}</router-link>
+        <font-awesome-icon class="i1" :icon="`${item.icon}`" />
+        <router-link class="i2" :to="`/${item.to}`">{{
+          item.title
+        }}</router-link>
       </div>
     </section>
   </div>
@@ -49,36 +51,40 @@ export default {
     /* a가 opacity(불투명도) 값 */
     background-color: rgba(255, 255, 255, 0.9);
   }
-}
-
-/* 내비 로고 */
-.logo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  img {
-    width: 170px;
-    height: 170px;
-    transition: 0.5s;
-    &:hover {
-      width: 180px;
-      height: 180px;
+  /* 내비 로고 */
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    img {
+      width: 170px;
+      height: 170px;
+      &:hover {
+        width: 180px;
+        height: 180px;
+        transition: 0.5s;
+      }
     }
   }
-}
 
-/* 내비 리스트 */
-.nav-list {
-  .item {
-    font-size: 20px;
-    color: black;
-    opacity: 0.8;
-    margin-top: 10px;
-    transition: 0.5s;
-    &:hover {
-      color: royalblue;
-      font-size: 22px;
-      opacity: 1;
+  /* 내비 리스트 */
+  .nav-list {
+    .item {
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.9);
+      opacity: 0.8;
+      margin-top: 10px;
+      .i2 {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.9);
+      }
+      &:hover,
+      .i2:hover {
+        color: royalblue;
+        font-size: 22px;
+        opacity: 1;
+        transition: 0.5s;
+      }
     }
   }
 }

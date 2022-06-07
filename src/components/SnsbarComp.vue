@@ -27,13 +27,14 @@ export default {
   right: 0;
   background-color: rgba(255, 255, 255, 0.7);
   margin: 20px;
-  transition: 0.5s;
   &:hover {
     background-color: rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
   }
   section {
     margin: 20px;
     font-size: 25px;
+    color: rgba(0, 0, 0, 0.9);
   }
   .fb:hover {
     color: royalblue;

@@ -1,11 +1,6 @@
 <template>
   <div id="app">
-    <navbar-comp>
-      <router-link to="/">Today</router-link><br />
-      <router-link to="/Chart">Chart</router-link><br />
-      <router-link to="/Artist">Artist</router-link><br />
-      <router-link to="/Latest">Latest</router-link><br />
-    </navbar-comp>
+    <navbar-comp> </navbar-comp>
     <snsbar-comp />
 
     <router-view />
