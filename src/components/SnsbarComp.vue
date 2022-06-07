@@ -25,59 +25,24 @@ export default {
   position: fixed;
   bottom: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 20px;
+  transition: 0.5s;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  section {
+    margin: 20px;
+    font-size: 25px;
+  }
+  .fb:hover {
+    color: royalblue;
+  }
+  .ig:hover {
+    color: deeppink;
+  }
+  .tw:hover {
+    color: deepskyblue;
+  }
 }
-
-// section {
-//   position: fixed;
-//   display: flex;
-
-//   z-index: 1;
-
-//   margin: 30px;
-//   padding: 5px;
-
-//   background-color: rgba(255, 255, 255, 0.5);
-//   border-radius: 5px;
-
-//   transition: 0.5s;
-// }
-
-// section:hover {
-//   background-color: rgba(255, 255, 255, 0);
-// }
-
-// section .icon {
-//   /* width: 20px; */
-//   font-size: 20px;
-//   opacity: 0.8;
-// }
-
-// .tw {
-//   bottom: 0%;
-//   right: 0%;
-// }
-// .tw:hover {
-//   color: steelblue;
-//   opacity: 1;
-// }
-
-// .ig {
-//   bottom: 5%;
-//   right: 0%;
-// }
-// .ig:hover {
-//   color: deeppink;
-//   opacity: 1;
-// }
-
-// .fb {
-//   bottom: 10%;
-//   right: 0%;
-// }
-// .fb:hover {
-//   color: royalblue;
-//   opacity: 1;
-// }
 </style>

@@ -1,47 +1,51 @@
 <template>
   <div id="app">
-    <nav-bar />
-    <sns-bar />
+    <navbar-comp>
+      <router-link to="/">Today</router-link><br />
+      <router-link to="/Chart">Chart</router-link><br />
+      <router-link to="/Artist">Artist</router-link><br />
+      <router-link to="/Latest">Latest</router-link><br />
+    </navbar-comp>
+    <snsbar-comp />
 
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
     <router-view />
   </div>
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
-import SnsBar from "@/components/SnsBar.vue";
+import NavbarComp from "@/components/NavbarComp.vue";
+import SnsbarComp from "@/components/SnsbarComp.vue";
 
 export default {
   name: "MainView",
-  components: { NavBar, SnsBar },
+  components: { NavbarComp, SnsbarComp },
 };
 </script>
 
 <style lang="scss">
 body {
   margin: 0;
-  background-color: slategray;
+  background-color: black;
+  color: white;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  // font-family: Avenir, Helvetica, Arial, sans-serif;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  // color: #2c3e50;
+  display: flex;
+  justify-content: center;
 }
 
-nav {
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+// nav {
+//   a {
+//     font-weight: bold;
+//     color: #2c3e50;
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+//     &.router-link-exact-active {
+//       color: #42b983;
+//     }
+//   }
+// }
 </style>
