@@ -10,9 +10,9 @@
     <section class="nav-list" v-for="(item, i) in navlist" :key="i">
       <div class="item">
         <font-awesome-icon class="i1" :icon="`${item.icon}`" />
-        <router-link class="i2" :to="`/${item.to}`">{{
-          item.title
-        }}</router-link>
+        <router-link :to="`/${item.to}`"
+          ><span class="i2">{{ item.title }}</span></router-link
+        >
       </div>
     </section>
   </div>
@@ -51,6 +51,7 @@ export default {
     /* a가 opacity(불투명도) 값 */
     background-color: rgba(255, 255, 255, 0.9);
   }
+
   /* 내비 로고 */
   .logo {
     display: flex;
@@ -59,10 +60,10 @@ export default {
     img {
       width: 170px;
       height: 170px;
+      transition: 0.5s;
       &:hover {
         width: 180px;
         height: 180px;
-        transition: 0.5s;
       }
     }
   }
@@ -71,19 +72,23 @@ export default {
   .nav-list {
     .item {
       font-size: 20px;
-      color: rgba(0, 0, 0, 0.9);
       opacity: 0.8;
       margin-top: 10px;
-      .i2 {
+      transition: 0.5s;
+      a {
         text-decoration: none;
+      }
+      .i1,
+      .i2 {
         color: rgba(0, 0, 0, 0.9);
       }
-      &:hover,
-      .i2:hover {
-        color: royalblue;
+      &:hover {
         font-size: 22px;
         opacity: 1;
-        transition: 0.5s;
+        .i1,
+        .i2 {
+          color: royalblue;
+        }
       }
     }
   }
