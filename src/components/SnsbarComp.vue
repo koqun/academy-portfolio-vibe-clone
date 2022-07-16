@@ -1,12 +1,12 @@
 <template>
   <div class="sns">
-    <section class="gh">
+    <a :href="`${link.gh}`" class="gh">
       <font-awesome-icon icon="fa-brands fa-github-square" />
-    </section>
+    </a>
 
-    <section class="ig">
+    <a :href="`${link.ig}`" class="ig">
       <font-awesome-icon class="icon" icon="fa-brands fa-instagram-square" />
-    </section>
+    </a>
   </div>
 </template>
 
@@ -15,7 +15,10 @@ export default {
   name: "SnsbarComp",
   data() {
     return {
-      link: [],
+      link: {
+        gh: "https://github.com/koqun",
+        ig: "https://www.instagram.com/rnwkrud_/",
+      },
     };
   },
   methods: {},
@@ -27,16 +30,17 @@ export default {
   position: fixed;
   bottom: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 20px;
   transition: 0.5s;
   &:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
   }
-  section {
-    margin: 15px;
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.5);
+  a {
+    display: block;
+    margin: 0px 10px 5px 10px;
+    font-size: 40px;
+    color: rgb(0, 0, 0, 0.7);
   }
   .gh:hover {
     color: rgb(0, 0, 0);

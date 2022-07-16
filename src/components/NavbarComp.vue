@@ -1,10 +1,10 @@
 <template>
   <div class="nav">
     <section class="logo">
-      <!-- <img
+      <img
         src="https://cdn.pixabay.com/photo/2016/11/09/23/16/music-1813100_960_720.png"
-      /> -->
-      <img src="@/assets/logo.png" />
+      />
+      <!-- <img src="@/assets/logo.png" /> -->
     </section>
 
     <section class="nav-list" v-for="(item, i) in navlist" :key="i">
@@ -42,14 +42,14 @@ export default {
   left: 0;
   width: 200px;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   transition: 0.5s;
   padding: 20px;
   margin: 20px;
   &:hover {
     /* 배경의 투명도를 조절하려면 rgba로 색상설정. */
     /* a가 opacity(불투명도) 값 */
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
   }
 
   /* 내비 로고 */
@@ -72,7 +72,6 @@ export default {
   .nav-list {
     .item {
       font-size: 20px;
-      opacity: 0.7;
       margin-top: 10px;
       transition: 0.5s;
       a {
@@ -80,14 +79,13 @@ export default {
       }
       .i1,
       .i2 {
-        color: rgba(0, 0, 0, 0.9);
+        color: rgb(0, 0, 0, 0.7);
       }
       &:hover {
         font-size: 22px;
-        opacity: 1;
         .i1,
         .i2 {
-          color: royalblue;
+          color: rgb(65, 105, 225);
         }
       }
     }
