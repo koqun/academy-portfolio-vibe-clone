@@ -1,47 +1,33 @@
 <template>
   <div id="app">
-    <nav-bar />
-    <sns-bar />
+    <navbar-comp> </navbar-comp>
+    <snsbar-comp />
 
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
     <router-view />
   </div>
 </template>
 
 <script>
-import NavBar from "@/components/NavbarComp.vue";
-import SnsBar from "@/components/SnsbarComp.vue";
+import NavbarComp from "@/components/NavbarComp.vue";
+import SnsbarComp from "@/components/SnsbarComp.vue";
 
 export default {
   name: "MainView",
-  components: { NavBar, SnsBar },
+  components: { NavbarComp, SnsbarComp },
 };
 </script>
 
 <style lang="scss">
 body {
   margin: 0;
-  background-color: slategray;
+  background-color: black;
+  color: white;
+  margin: 0px 0px 0px 0px;
+  margin-left: 280px;
 }
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-
-nav {
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+/* #app {
+  display: flex;
+  justify-content: center;
+} */
 </style>

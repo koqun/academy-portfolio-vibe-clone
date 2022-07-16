@@ -14,9 +14,8 @@ import {
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import {
-  faFacebookSquare,
+  faGithubSquare,
   faInstagramSquare,
-  faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -29,9 +28,8 @@ library.add(
   faHeart,
   faBell,
   faBars,
-  faFacebookSquare,
+  faGithubSquare,
   faInstagramSquare,
-  faTwitterSquare
 );
 /* add font awesome icon component */
 Vue.component("font-awesome-icon", FontAwesomeIcon);
