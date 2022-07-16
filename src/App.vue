@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
-import SnsBar from "@/components/SnsBar.vue";
+import NavBar from "@/components/NavbarComp.vue";
+import SnsBar from "@/components/SnsbarComp.vue";
 
 export default {
   name: "MainView",
