@@ -6,9 +6,8 @@
 </template>
 
 <script>
-import ArtistComp from '@/components/ArtistComp.vue'
+import ArtistComp from "@/components/ArtistComp.vue";
 export default {
   components: { ArtistComp },
-  
-}
+};
 </script>

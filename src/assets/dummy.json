@@ -1,49 +1,512 @@
 {
-    "magazine":[
-        {"img":"아이브.png", "title":"New Release #87 : 찰리 푸스, 아이브", "link":"https://vibe.naver.com/magazines/60853"},  
-        {"img":"하루키.png", "title":"하루키 씨의 오래되고 멋진 클래식 레코드", "link":"https://vibe.naver.com/magazines/60508"},  
-        {"img":"덴젤커리.png", "title":"덴젤 커리의 도우미 : 빌리 아일리시, 선더캣", "link":"https://vibe.naver.com/magazines/60776"},  
-        {"img":"아이들.png", "title":"다시 (여자)아이들", "link":"https://vibe.naver.com/magazines/60574"},  
-        {"img":"nctdream_권진아.png", "title":"New Release #86 : NCT DREAM, 권진아", "link":"https://vibe.naver.com/magazines/60685"},  
-        {"img":"영국밴드.png", "title":"Billboard HOT 100 : 영국 밴드가 쓴 드라마", "link":"https://vibe.naver.com/magazines/60464"},  
-        {"img":"벤.png", "title":"벤, 봄에도 이별은 찾아오니까", "link":"https://vibe.naver.com/magazines/60408"},  
-        {"img":"박재범.png", "title":"이주의 디깅 #131 17금 뮤직비디오", "link":"https://vibe.naver.com/magazines/60306"},  
-        {"img":"레드벨벳.png", "title":"New Release #85 : 레드벨벳, 하이라이트", "link":"https://vibe.naver.com/magazines/60254"},  
-        {"img":"라드뮤지엄_채.png", "title":"당신이 들어야만 하는 앨범 : 라드 뮤지엄, 채", "link":"https://vibe.naver.com/magazines/60073"}
-    ],
-    "news":[
-        {"img":"220413_유아.jpg", "title":"버추얼 아티스트 한유아가 신곡을 발매하였습니다", "link":"https://gametoc.hankyung.com/news/articleView.html?idxno=65802"},  
-        {"img":"220411_온유.jpg", "title":"온유가 3년 4개월 만에 솔로 앨범으로 컴백하였습니다 ", "link":"https://www.edaily.co.kr/news/read?newsId=01256246632295136&mediaCodeNo=258"},  
-        {"img":"7443567.png", "title":"ITZY가 일본 첫 오리지널 싱글을 통해 음반 차트에서 좋은 성적을 거뒀습니다", "link":"http://www.heraldpop.com/view.php?ud=202204071302158084771_1"},  
-        {"img":"220321_트와이스.jpg", "title":"트와이스가 K팝 걸그룹 사상 첫 북미 스타디움 공연을 개최합니다", "link":"http://www.heraldpop.com/view.php?ud=202204071100377610957_1"},  
-        {"img":"220407_아이콘_뉴스카드.jpg", "title":"아이콘이 3년 반 만에 단독 콘서트를 개최할 예정입니다", "link":"https://www.mk.co.kr/star/musics/view/2022/04/309597/"},  
-        {"img":"220406_임영웅.jpg", "title":"임영웅이 단독 전국투어 콘서트를 개최합니다", "link":"https://mk.co.kr/star/hot-issues/view/2022/03/284928/"},  
-        {"img":"bts_뉴스카드.jpg", "title":"방탄소년단이 제64회 그래미 어워즈에서 성공적인 무대를 펼쳤습니다", "link":"https://www.sedaily.com/NewsView/264K9H2W7C"},  
-        {"img":"220401_오마이걸.jpg", "title":"오마이걸이 7주년 기념 팬미팅을 개최합니다 ", "link":"https://www.mk.co.kr/star/musics/view/2022/04/294048/"},  
-        {"img":"데이브레이크_X_LUCY_뉴스카드.jpg", "title":"루시와 데이브레이크가 첫 콜라보 음원을 발매했습니다", "link":"https://www.mk.co.kr/star/musics/view/2022/03/291919/"}
-    ],
-    "local":[
-        {"img":"봄여름가을겨울.jpg", "title":"봄여름가을겨울 (Still Life)", "group":"BIGBANG (빅뱅)", "rank":1}, 
-        {"img":"tomboy.jpg", "title":"TOMBOY", "group":"(여자) 아이들", "rank":2}, 
-        {"img":"feelmyrhythm.jpg", "title":"Feel My Rhythm", "group":"Red Velvet (레드벨벳)", "rank":3}, 
-        {"img":"lovedive.jpg", "title":"LOVE DIVE", "group":"IVE(아이브)", "rank":4}, 
-        {"img":"ganadara.jpg", "title":"GANADARA (Feat. 아이유)", "group":"박재범", "rank":5}, 
-        {"img":"invu.jpg", "title":"INVU", "group":"태연 (TAEYEON)", "rank":6}, 
-        {"img":"사랑인가봐.jpg", "title":"사랑인가 봐", "group":"멜로망스(Melomance)", "rank":7}, 
-        {"img":"run2u.jpg", "title":"RUN2U", "group":"STAYC(스테이씨)", "rank":8}, 
-        {"img":"취중고백.jpg", "title":"취중고백", "group":"김민석(멜로망스)", "rank":9}, 
-        {"img":"eleven.jpg", "title":"ELEVEN", "group":"IVE(아이브)", "rank":10}
-    ],
-    "foreign":[
-        {"img":"heatwaves.jpg", "title":"Heat Waves", "group":"Glass Animals", "rank":1}, 
-        {"img":"stay.jpg", "title":"STAY", "group":"The Kid LAROI, Justin Bieber", "rank":2}, 
-        {"img":"bigenergy.jpg", "title":"Big Energy", "group":"Latto", "rank":3}, 
-        {"img":"supergremlin.jpg", "title":"Super Gremlin", "group":"Kodak Black", "rank":4}, 
-        {"img":"enemy.jpg", "title":"Enemy (from the series Arcane League of Legends)", "group":"Imagine Dragons, J.I.D, League of Legends", "rank":5}, 
-        {"img":"ghost.jpg", "title":"Ghost", "group":"Justin Bieber", "rank":6}, 
-        {"img":"abcdefu.jpg", "title":"abcdefu", "group":"GAYLE", "rank":7}, 
-        {"img":"wdtab.jpg", "title":"We Dont Talk About Bruno", "group":"Carolina Gaitán, Mauro Castillo, Adassa, Rhenzy Feliz", "rank":8}, 
-        {"img":"twiw.jpg", "title":"THATS WHAT I WANT", "group":"Lil Nas X", "rank":9}, 
-        {"img":"woman.jpg", "title":"Woman", "group":"Doja Cat", "rank":10}
-    ]
+  "magazine": [
+    {
+      "img": "아이브.png",
+      "title": "New Release #87 : 찰리 푸스, 아이브",
+      "link": "https://vibe.naver.com/magazines/60853"
+    },
+    {
+      "img": "하루키.png",
+      "title": "하루키 씨의 오래되고 멋진 클래식 레코드",
+      "link": "https://vibe.naver.com/magazines/60508"
+    },
+    {
+      "img": "덴젤커리.png",
+      "title": "덴젤 커리의 도우미 : 빌리 아일리시, 선더캣",
+      "link": "https://vibe.naver.com/magazines/60776"
+    },
+    {
+      "img": "아이들.png",
+      "title": "다시 (여자)아이들",
+      "link": "https://vibe.naver.com/magazines/60574"
+    },
+    {
+      "img": "nctdream_권진아.png",
+      "title": "New Release #86 : NCT DREAM, 권진아",
+      "link": "https://vibe.naver.com/magazines/60685"
+    },
+    {
+      "img": "영국밴드.png",
+      "title": "Billboard HOT 100 : 영국 밴드가 쓴 드라마",
+      "link": "https://vibe.naver.com/magazines/60464"
+    },
+    {
+      "img": "벤.png",
+      "title": "벤, 봄에도 이별은 찾아오니까",
+      "link": "https://vibe.naver.com/magazines/60408"
+    },
+    {
+      "img": "박재범.png",
+      "title": "이주의 디깅 #131 17금 뮤직비디오",
+      "link": "https://vibe.naver.com/magazines/60306"
+    },
+    {
+      "img": "레드벨벳.png",
+      "title": "New Release #85 : 레드벨벳, 하이라이트",
+      "link": "https://vibe.naver.com/magazines/60254"
+    },
+    {
+      "img": "라드뮤지엄_채.png",
+      "title": "당신이 들어야만 하는 앨범 : 라드 뮤지엄, 채",
+      "link": "https://vibe.naver.com/magazines/60073"
+    }
+  ],
+  "news": [
+    {
+      "img": "220413_유아.jpg",
+      "title": "버추얼 아티스트 한유아가 신곡을 발매하였습니다",
+      "link": "https://gametoc.hankyung.com/news/articleView.html?idxno=65802"
+    },
+    {
+      "img": "220411_온유.jpg",
+      "title": "온유가 3년 4개월 만에 솔로 앨범으로 컴백하였습니다 ",
+      "link": "https://www.edaily.co.kr/news/read?newsId=01256246632295136&mediaCodeNo=258"
+    },
+    {
+      "img": "7443567.png",
+      "title": "ITZY가 일본 첫 오리지널 싱글을 통해 음반 차트에서 좋은 성적을 거뒀습니다",
+      "link": "http://www.heraldpop.com/view.php?ud=202204071302158084771_1"
+    },
+    {
+      "img": "220321_트와이스.jpg",
+      "title": "트와이스가 K팝 걸그룹 사상 첫 북미 스타디움 공연을 개최합니다",
+      "link": "http://www.heraldpop.com/view.php?ud=202204071100377610957_1"
+    },
+    {
+      "img": "220407_아이콘_뉴스카드.jpg",
+      "title": "아이콘이 3년 반 만에 단독 콘서트를 개최할 예정입니다",
+      "link": "https://www.mk.co.kr/star/musics/view/2022/04/309597/"
+    },
+    {
+      "img": "220406_임영웅.jpg",
+      "title": "임영웅이 단독 전국투어 콘서트를 개최합니다",
+      "link": "https://mk.co.kr/star/hot-issues/view/2022/03/284928/"
+    },
+    {
+      "img": "bts_뉴스카드.jpg",
+      "title": "방탄소년단이 제64회 그래미 어워즈에서 성공적인 무대를 펼쳤습니다",
+      "link": "https://www.sedaily.com/NewsView/264K9H2W7C"
+    },
+    {
+      "img": "220401_오마이걸.jpg",
+      "title": "오마이걸이 7주년 기념 팬미팅을 개최합니다 ",
+      "link": "https://www.mk.co.kr/star/musics/view/2022/04/294048/"
+    },
+    {
+      "img": "데이브레이크_X_LUCY_뉴스카드.jpg",
+      "title": "루시와 데이브레이크가 첫 콜라보 음원을 발매했습니다",
+      "link": "https://www.mk.co.kr/star/musics/view/2022/03/291919/"
+    }
+  ],
+  "local": [
+    {
+      "img": "봄여름가을겨울.jpg",
+      "title": "봄여름가을겨울 (Still Life)",
+      "group": "BIGBANG (빅뱅)",
+      "rank": 1
+    },
+    {
+      "img": "tomboy.jpg",
+      "title": "TOMBOY",
+      "group": "(여자) 아이들",
+      "rank": 2
+    },
+    {
+      "img": "feelmyrhythm.jpg",
+      "title": "Feel My Rhythm",
+      "group": "Red Velvet (레드벨벳)",
+      "rank": 3
+    },
+    {
+      "img": "lovedive.jpg",
+      "title": "LOVE DIVE",
+      "group": "IVE(아이브)",
+      "rank": 4
+    },
+    {
+      "img": "ganadara.jpg",
+      "title": "GANADARA (Feat. 아이유)",
+      "group": "박재범",
+      "rank": 5
+    },
+    {
+      "img": "invu.jpg",
+      "title": "INVU",
+      "group": "태연 (TAEYEON)",
+      "rank": 6
+    },
+    {
+      "img": "사랑인가봐.jpg",
+      "title": "사랑인가 봐",
+      "group": "멜로망스(Melomance)",
+      "rank": 7
+    },
+    {
+      "img": "run2u.jpg",
+      "title": "RUN2U",
+      "group": "STAYC(스테이씨)",
+      "rank": 8
+    },
+    {
+      "img": "취중고백.jpg",
+      "title": "취중고백",
+      "group": "김민석(멜로망스)",
+      "rank": 9
+    },
+    {
+      "img": "eleven.jpg",
+      "title": "ELEVEN",
+      "group": "IVE(아이브)",
+      "rank": 10
+    }
+  ],
+  "foreign": [
+    {
+      "img": "heatwaves.jpg",
+      "title": "Heat Waves",
+      "group": "Glass Animals",
+      "rank": 1
+    },
+    {
+      "img": "stay.jpg",
+      "title": "STAY",
+      "group": "The Kid LAROI, Justin Bieber",
+      "rank": 2
+    },
+    {
+      "img": "bigenergy.jpg",
+      "title": "Big Energy",
+      "group": "Latto",
+      "rank": 3
+    },
+    {
+      "img": "supergremlin.jpg",
+      "title": "Super Gremlin",
+      "group": "Kodak Black",
+      "rank": 4
+    },
+    {
+      "img": "enemy.jpg",
+      "title": "Enemy (from the series Arcane League of Legends)",
+      "group": "Imagine Dragons, J.I.D, League of Legends",
+      "rank": 5
+    },
+    {
+      "img": "ghost.jpg",
+      "title": "Ghost",
+      "group": "Justin Bieber",
+      "rank": 6
+    },
+    { "img": "abcdefu.jpg", "title": "abcdefu", "group": "GAYLE", "rank": 7 },
+    {
+      "img": "wdtab.jpg",
+      "title": "We Dont Talk About Bruno",
+      "group": "Carolina Gaitán, Mauro Castillo, Adassa, Rhenzy Feliz",
+      "rank": 8
+    },
+    {
+      "img": "twiw.jpg",
+      "title": "THATS WHAT I WANT",
+      "group": "Lil Nas X",
+      "rank": 9
+    },
+    { "img": "woman.jpg", "title": "Woman", "group": "Doja Cat", "rank": 10 }
+  ],
+  "artist": [
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/001/687/1687998.jpg?type=ff300_300&v=20220317175914",
+      "name": "Rad Museum"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/002/406/2406424.jpg?type=ff300_300&v=20220307015509",
+      "name": "sogumm"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/158/158383.jpg?type=ff300_300&v=20220303123013",
+      "name": "우디 (Woody)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/002/988/2988467.jpg?type=ff300_300&v=20220609175909",
+      "name": "BIG Naughty (서동현)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/270/270281.jpg?type=ff300_300&v=20220303085306",
+      "name": "스텔라장(Stella Jang)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/002/952/2952489.jpg?type=ff300_300&v=20220309041608",
+      "name": "meenoi (미노이)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/093/93829.jpg?type=ff300_300&v=20220303183410",
+      "name": "런치"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/003/679/3679562.jpg?type=ff300_300&v=20220330175913",
+      "name": "주시크 (Joosiq)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/004/885/4885492.jpg?type=ff300_300&v=20220506104008",
+      "name": "BoyWithUke"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/003/177/3177930.jpg?type=ff300_300&v=20220408120010",
+      "name": "BE'O(비오)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/204/204033.jpg?type=ff300_300&v=20220607160009",
+      "name": "CHEEZE (치즈)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/493/493335.jpg?type=ff300_300&v=20220304001010",
+      "name": "김효은"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/462/462477.jpg?type=ff300_300&v=20220302101508",
+      "name": "dress"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/032/32828.jpg?type=ff300_300&v=20220303000108",
+      "name": "개코"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/099/99959.jpg?type=ff300_300&v=20220302211408",
+      "name": "Hoody(후디)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/366/366510.jpg?type=ff300_300&v=20220525174108",
+      "name": "SURAN(수란)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/470/470713.jpg?type=ff300_300&v=20220302193208",
+      "name": "오반"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/002/438/2438376.jpg?type=ff300_300&v=20220307064508",
+      "name": "Skinny Brown"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/379/379592.jpg?type=ff300_300&v=20220302113110",
+      "name": "Futuristic Swaver"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/474/474402.jpg?type=ff300_300&v=20220324180009",
+      "name": "Paul Blanco"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/001/993/1993349.jpg?type=ff300_300&v=20220306090607",
+      "name": "UNEDUCATED KID"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/002/395/2395983.jpg?type=ff300_300&v=20220520175913",
+      "name": "TOIL"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/003/009/3009679.jpg?type=ff300_300&v=20220309074310",
+      "name": "MELOH"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/003/082/3082428.jpg?type=ff300_300&v=20220602095212",
+      "name": "호미들"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/314/314811.jpg?type=ff300_300&v=20220602095214",
+      "name": "헤이즈 (Heize)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/035/35551.jpg?type=ff300_300&v=20220602094433",
+      "name": "태연 (TAEYEON)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/155/155266.jpg?type=ff300_300&v=20220602094424",
+      "name": "지코 (ZICO)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/353/353359.jpg?type=ff300_300&v=20220602094431",
+      "name": "혁오(HYUKOH)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/001/749/1749383.jpg?type=ff300_300&v=20220305214408",
+      "name": "우원재"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/331/331653.jpg?type=ff300_300&v=20220303131410",
+      "name": "식케이 (Sik-K)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/214/214210.jpg?type=ff300_300&v=20220602094420",
+      "name": "이하이"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/112/112579.jpg?type=ff300_300&v=20220713110808",
+      "name": "아이유(IU)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/002/402/2402563.jpg?type=ff300_300&v=20220602095211",
+      "name": "원슈타인"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/243/243100.jpg?type=ff300_300&v=20220602094432",
+      "name": "AKMU(악뮤)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/319/319146.jpg?type=ff300_300&v=20220524141611",
+      "name": "윤딴딴"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/001/362/1362957.jpg?type=ff300_300&v=20220305050609",
+      "name": "Way Ched"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/367/367678.jpg?type=ff300_300&v=20220303001809",
+      "name": "jeebanoff (지바노프)"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/000/362/362955.jpg?type=ff300_300&v=20220303115014",
+      "name": "죠지"
+    },
+    {
+      "img": "https://musicmeta-phinf.pstatic.net/artist/002/561/2561609.jpg?type=ff300_300&v=20220307233208",
+      "name": "다운(Dvwn)"
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    },
+    {
+      "img": "",
+      "name": ""
+    }
+  ],
+  "latestAlbum": [
+    { "img": "", "title": "", "artist": "" }
+]
 }

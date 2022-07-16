@@ -5,7 +5,7 @@
     </a>
 
     <a :href="`${link.ig}`" class="ig">
-      <font-awesome-icon class="icon" icon="fa-brands fa-instagram-square" />
+      <font-awesome-icon icon="fa-brands fa-instagram-square" />
     </a>
   </div>
 </template>
@@ -21,7 +21,6 @@ export default {
       },
     };
   },
-  methods: {},
 };
 </script>
 

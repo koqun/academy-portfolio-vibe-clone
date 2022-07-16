@@ -8,10 +8,11 @@ import {
   faMagnifyingGlass,
   faX,
   faNewspaper,
-  faChartLine,
+  faRankingStar,
   faHeart,
-  faBell,
+  faCompactDisc,
   faBars,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithubSquare,
@@ -24,12 +25,13 @@ library.add(
   faMagnifyingGlass,
   faX,
   faNewspaper,
-  faChartLine,
+  faRankingStar,
   faHeart,
-  faBell,
   faBars,
   faGithubSquare,
   faInstagramSquare,
+  faUser,
+  faCompactDisc
 );
 /* add font awesome icon component */
 Vue.component("font-awesome-icon", FontAwesomeIcon);

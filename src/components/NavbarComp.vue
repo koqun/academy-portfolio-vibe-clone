@@ -25,9 +25,9 @@ export default {
     return {
       navlist: [
         { icon: "fa-solid fa-newspaper", title: "투데이", to: "" },
-        { icon: "fa-solid fa-chart-line", title: "차트", to: "chart" },
-        { icon: "fa-solid fa-heart", title: "아티스트", to: "artist" },
-        { icon: "fa-solid fa-bell", title: "최신 앨범", to: "latest" },
+        { icon: "fa-solid fa-ranking-star", title: "차트", to: "chart" },
+        { icon: "fa-solid fa-user", title: "아티스트", to: "artist" },
+        { icon: "fa-solid fa-compact-disc", title: "앨범", to: "latest" },
       ],
     };
   },
