@@ -33,14 +33,13 @@
 </template>
 
 <script>
-import data from "../assets/data.json";
-
 export default {
   name: "ChartComp",
   data() {
     return {
-      local: data.local,
-      foreign: data.foreign,
+      data: this.$store.state.data,
+      local: this.$store.state.data.local,
+      foreign: this.$store.state.data.foreign,
     };
   },
 };

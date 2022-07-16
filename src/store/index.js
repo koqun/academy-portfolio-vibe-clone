@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import dummy from "@/assets/todaydummy.json";
+import dummy from "@/assets/dummy.json";
 
 Vue.use(Vuex);
 

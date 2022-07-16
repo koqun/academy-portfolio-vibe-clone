@@ -38,8 +38,6 @@ export default {
 .today {
   .magazine {
     display: flex;
-    :hover {
-    }
   }
   .news {
     display: flex;

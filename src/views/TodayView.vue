@@ -1,5 +1,6 @@
 <template>
   <div class="today">
+    <h1>This is an today page</h1>
     <today-comp />
   </div>
 </template>
